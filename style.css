@@ -112,6 +112,13 @@ margin-top: 10px;
 
 .about{
     background-color: #DFD0B8;
+    
+}
+.beackground{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: ;
 }
 
 .about, .contact{
@@ -138,6 +145,19 @@ margin-top: 10px;
 .email a:hover{
     background-color: darkorange;
     border-radius: 10px;
+
+}
+.importent::after{
+    content: 'important';
+    background-color: red;
+    color: white;
+    font-size: 0.5rem;
+    padding: 0.2rem;
+
+}
+::selection{
+    background-color: blueviolet;
+    color: white;
 
 }
 
