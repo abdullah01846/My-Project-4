@@ -127,6 +127,21 @@ margin-top: 10px;
 .about p, .contact p{
     margin-bottom: 20px;
 }
+.email a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid darkorange;
+    padding: 5px;
+    transition: 1s;
+}
+
+.email a:hover{
+    background-color: darkorange;
+    border-radius: 10px;
+
+}
+
+/* footer */
 
 footer{
     text-align: center;
